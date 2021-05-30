@@ -13,7 +13,7 @@ const [pos,setPos]=useState([{}]);
 //   // action on update of movies
 // }, [pos]);
 const app = new Clarifai.App({
- apiKey:'889edde3999249ff89f512fc8e4dbf81'
+ apiKey:'Your API key'
 });
 const calFaceLoc=(data)=>{
   console.log(data);
